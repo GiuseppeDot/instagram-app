@@ -1,0 +1,57 @@
+body {
+  background-color: black;
+  h1 {
+    font-weight: bolder;
+    font-size: 2rem;
+    color: white;
+  }
+  hr {
+    border: 1px solid grey;
+  }
+}
+
+.navbarSettings {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  .search-favourite-navbar {
+    display: flex;
+    align-items: center;
+    div {
+      border: 1px solid black;
+      margin-right: 1rem;
+      border-radius: 10px;
+      background-color: #363636;
+    }
+    form {
+      display: flex;
+      align-items: center;
+      padding: 5px;
+      margin-right: 10px;
+      input {
+        :focus {
+          border: none;
+        }
+        background-color: #363636;
+        border: none;
+        outline: none;
+        color: grey;
+      }
+      border: none;
+      i {
+        font-size: 1rem;
+        color: grey;
+        margin-right: 0.4rem;
+      }
+    }
+  }
+  #searchInput {
+    padding: 5px;
+  }
+  i {
+    font-size: 1.4rem;
+    color: white;
+  }
+}

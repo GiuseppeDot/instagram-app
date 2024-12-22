@@ -1,0 +1,57 @@
+body {
+  background-color: black;
+}
+body h1 {
+  font-weight: bolder;
+  font-size: 2rem;
+  color: white;
+}
+body hr {
+  border: 1px solid grey;
+}
+
+.navbarSettings {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbarSettings .search-favourite-navbar {
+  display: flex;
+  align-items: center;
+}
+.navbarSettings .search-favourite-navbar div {
+  border: 1px solid black;
+  margin-right: 1rem;
+  border-radius: 10px;
+  background-color: #363636;
+}
+.navbarSettings .search-favourite-navbar form {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin-right: 10px;
+  border: none;
+}
+.navbarSettings .search-favourite-navbar form input {
+  background-color: #363636;
+  border: none;
+  outline: none;
+  color: grey;
+}
+.navbarSettings .search-favourite-navbar form input :focus {
+  border: none;
+}
+.navbarSettings .search-favourite-navbar form i {
+  font-size: 1rem;
+  color: grey;
+  margin-right: 0.4rem;
+}
+.navbarSettings #searchInput {
+  padding: 5px;
+}
+.navbarSettings i {
+  font-size: 1.4rem;
+  color: white;
+}/*# sourceMappingURL=App.css.map */
