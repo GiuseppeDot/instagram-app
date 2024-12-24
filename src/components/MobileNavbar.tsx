@@ -16,6 +16,18 @@ const MobileNavbar = () => {
         </div>
       </div>
       <hr />
+      {/* ------------ */}
+      <div className="downNavbar-mobile-container">
+        <hr />
+        <div className="downNavbar-mobile">
+          <i className="bi bi-house-door-fill"></i>
+          <i className="bi bi-compass"></i>
+          <i className="bi bi-film"></i>
+          <i className="bi bi-plus-square"></i>
+          <i className="bi bi-send"></i>
+          <i className="bi bi-clipboard-data"></i>
+        </div>
+      </div>
     </>
   );
 };
