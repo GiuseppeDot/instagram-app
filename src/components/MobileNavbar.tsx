@@ -12,7 +12,7 @@ const MobileNavbar = () => {
               <input type="text" id="searchInput" placeholder="Cerca" />
             </form>
           </div>
-          <i className="bi bi-heart"></i>
+          <i className="bi bi-heart "></i>
         </div>
       </div>
       <hr />
